@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	var a int = 1
 	f := float64(a)
-	var b float64 = 1.233
+	var b float64 = 1.23344
 	var c bool = true
 	var d string = "vin"
 	const e = "vin"
