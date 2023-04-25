@@ -18,6 +18,6 @@ func main() {
 	fmt.Printf("Variable e = %v is type of %T\n", e, e)
 	fmt.Printf("Variable f = %f is type of %T\n", f, f)
 	fmt.Printf("Variable g  = %v is type of %T\n", g, g)
-	fmt.Printf("Concatination of d and e is %v\n ", h)
+	fmt.Printf("Concationation of d and e is %v\n ", h)
 	fmt.Print(ToMorseCode(h))
 }
