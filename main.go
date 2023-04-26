@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 	var a int = 1
@@ -20,4 +23,16 @@ func main() {
 	fmt.Printf("Variable g  = %v is type of %T\n", g, g)
 	fmt.Printf("Concationation of d and e is %v\n ", h)
 	fmt.Print(ToMorseCode(h))
+	var x, y float64 = 26.22, 26.22
+	var z float64 = math.Mod(x, y)
+	fmt.Print(z)
+	if x != y {
+		fmt.Printf("not equal")
+	} else {
+		fmt.Printf(" equal")
+	}
+	for i := 1; i <= 5001; i++ {
+		x := i * i * i
+		fmt.Printf("hi %v \n", x)
+	}
 }
