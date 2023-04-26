@@ -32,7 +32,7 @@ func main() {
 		fmt.Printf(" equal")
 	}
 	for i := 1; i <= 5001; i++ {
-		x := i * i * i
+		x := i * i * i * i
 		fmt.Printf("hi %v \n", x)
 	}
 }
