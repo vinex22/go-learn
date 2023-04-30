@@ -31,8 +31,10 @@ func main() {
 	} else {
 		fmt.Printf(" equal")
 	}
-	for i := 1; i <= 5001; i++ {
-		x := i * i * i * i
-		fmt.Printf("hi %v \n", x)
-	}
+	var fruit [5]string
+	grades := [...]int{1, 2, 3}
+
+	fmt.Print(len(fruit))
+	fmt.Print(len(grades))
+	fmt.Println(grades[1])
 }
